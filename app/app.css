@@ -1,15 +1,6 @@
 @import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
-}
+@import "../node_modules/@meduza-bank/ui-kit/sf-ui-stylesheet.css";
+@import "../node_modules/@meduza-bank/ui-kit/vk-sans-stylesheet.css";
+@import "../node_modules/@meduza-bank/ui-kit/variants-stylesheet.css";
+@import "../node_modules/@meduza-bank/ui-kit/theme-stylesheet.css";
+@import "../node_modules/@meduza-bank/ui-kit/base-stylesheet.css";
